@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-11T03:06:25 IST" name="Default suite" finished-at="2022-05-11T03:07:09 IST" duration-ms="43693">
+    <groups>
+    </groups>
+    <test started-at="2022-05-11T03:06:25 IST" name="Default test" finished-at="2022-05-11T03:07:09 IST" duration-ms="43693">
+      <class name="Automation.Assignment.test1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:Automation.Assignment.test1@957e06]" started-at="2022-05-11T03:06:25 IST" name="launchBrowser" finished-at="2022-05-11T03:06:47 IST" duration-ms="22484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="DropdownItemValidation(java.lang.String)[pri:0, instance:Automation.Assignment.test1@957e06]" started-at="2022-05-11T03:06:47 IST" name="DropdownItemValidation" data-provider="listItem-data" finished-at="2022-05-11T03:06:51 IST" duration-ms="3881" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DropdownItemValidation -->
+        <test-method signature="homePageLinkTextValidtion()[pri:0, instance:Automation.Assignment.test1@957e06]" started-at="2022-05-11T03:06:51 IST" name="homePageLinkTextValidtion" finished-at="2022-05-11T03:06:52 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLinkTextValidtion -->
+        <test-method signature="searchProduct(java.lang.String,java.lang.String)[pri:0, instance:Automation.Assignment.test1@957e06]" started-at="2022-05-11T03:06:52 IST" name="searchProduct" data-provider="searchItem-data" finished-at="2022-05-11T03:07:07 IST" duration-ms="14974" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harry Potter and the Philosopher's Stone By J.K. Rowling.]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Books]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method is-config="true" signature="ClearAll()[pri:0, instance:Automation.Assignment.test1@957e06]" started-at="2022-05-11T03:07:07 IST" name="ClearAll" finished-at="2022-05-11T03:07:09 IST" duration-ms="1919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClearAll -->
+      </class> <!-- Automation.Assignment.test1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
